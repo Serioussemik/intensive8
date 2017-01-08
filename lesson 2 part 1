@@ -1,0 +1,48 @@
+<h2>Урок 2 основы PHP, часть 1</h2>
+<!--<h1>Заголовок 1</h1>-->
+<?php
+    #echo 'привет как дела';
+?>
+<!--<h2>Заголовок 2</h2>-->
+<?php
+//    error_reporting(E_ERROR|E_WARNING|E_NOTICE);
+//    ini_set('display_errors', 1);
+    #echo $x;
+    #echo 'привет как дела 2';//выполняется быстрее
+    #print 'вывод на экран';
+    # print ('функция вывода на эран');
+    /* ошибкО синтаксиса; php.net
+     * php.ini display errors
+     * htaccess    
+     */
+    #echo 'test';
+/* $ переменные бывают склярные и массивы
+ * название начинается с букв
+  */  
+    #$my_age=32;
+    #$my_childrens="10 childrens";
+    #echo $my_age + $my_childrens;
+    #$my_age= "32";
+    #settype($my_age, 'integer');
+    #var_dump($my_age);// выводить какой тип и содержание
+    #print_r($my_age);// выводит содержание
+    #$my_age = 2;
+    #$me_age = 0x1A; // 26
+    #var_dump($my_age+$me_age);
+    // flat число с точкой
+
+    #$x = "chelovek";
+    #$my_age = 'test';
+    #$text = "privet \n" .$x. " kak dela"; //'' быстрее работает чем с ""
+    #echo $text;
+    // \n перенос строки
+    // \r возврат корретки
+    // \t табуляция
+    
+    $x = TRUE;//1
+    $y = FALSE;//0
+    $Z = 'привет код закоментирован'; //-> 0 
+    if($Z){
+        echo $Z; //влияние регистра
+    }
+?>
